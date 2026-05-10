@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50;
+  }
+}
+
+@layer components {
+  .tag-card {
+    @apply border border-gray-200 rounded-lg bg-white shadow-sm;
+  }
+  
+  .tag-header {
+    @apply bg-blue-500 text-white px-4 py-2 rounded-t-lg flex items-center gap-2 cursor-pointer hover:bg-blue-600 transition-colors;
+  }
+}
